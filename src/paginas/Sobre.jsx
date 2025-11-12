@@ -1,6 +1,6 @@
 function Sobre (){
     return(
-        <main> 
+        <main>
             <h1>Sobre o sistema </h1>
             <p> 
                 {" "}Esse sistema foi desenvolvido para auxiliar na organizaçãp dos eventos.</p>

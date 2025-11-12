@@ -9,7 +9,7 @@ function Home() {
       {/*Exibindo os eventos*/}
       <Evento nome="Mundo Senai" data="05/11/2025" local="Auditório" />
       <Evento nome="Efapi" data="10/10/2025" local="Efapi" />
-      <Evento nome="Palesta" data="01/11/2025" local="Unoesc" />
+      <Evento nome="Palestra" data="01/11/2025" local="Unoesc" />
     </main>
   );
 }

@@ -12,7 +12,7 @@
   /* Define as cores, fonte e alinhamento geral */
   body {
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-    background-color: #f5f7fa; /* Fundo cinza-claro */
+    background-color: #acbace; /* Fundo cinza-claro */
     color: #333;               /* Cor principal do texto */
     text-align: center;        /* Centraliza textos genéricos */
     min-height: 100vh;         /* Garante altura mínima de tela cheia */
@@ -31,14 +31,16 @@
      =============================== */
   
   header {
-    width: 100%;                        /* Ocupa toda a largura */
+    width: 60%;                        /* Ocupa toda a largura */
     background-color: #0072bb;          /* Azul padrão SENAI */
     color: white;                       /* Texto branco */
-    padding: 20px 0;                    /* Espaçamento interno */
+    padding: 5px 0;                    /* Espaçamento interno */
     font-size: 1.6em;                   /* Tamanho de texto maior */
     font-weight: bold;                  /* Texto em negrito */
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); /* Sombra abaixo do cabeçalho */
+    border-radius: 40px;
   }
+
   
   /* Estilo do menu principal de navegação */
   .menu-principal {
@@ -64,6 +66,11 @@
     margin-top: 30px;
     width: 90%;
     max-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: calc(100vh - 200px); /* deixa o main ocupar o espaço entre header e footer */
   }
   
   /* Título principal das páginas */
@@ -74,7 +81,7 @@
   
   /* Parágrafos genéricos */
   p {
-    color: #444;
+    color: #ffffff;
     line-height: 1.5; /* Espaçamento entre linhas */
   }
   
@@ -110,3 +117,5 @@
     padding: 20px;
   
   }
+ 
+ 

@@ -5,6 +5,7 @@ function Footer() {
       <footer>
         <p> Polyana Lemes - 2025 </p>
       </footer>
+      
     ); //Fecha retorno
   } //Fecha função
   
