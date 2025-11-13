@@ -60,7 +60,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: calc(100vh - 200px); /* deixa o main ocupar o espaço entre header e footer */
+    min-height: auto; /* deixa o main ocupar o espaço entre header e footer */
   }
   
  

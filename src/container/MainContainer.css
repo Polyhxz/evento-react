@@ -2,10 +2,8 @@
     display: flex;
     justify-content: center;      /* Centraliza horizontalmente */
     align-items: center;          /* Centraliza verticalmente */
-    min-height: calc(100vh - 140px); /* altura da tela menos header e footer */
-    width: 60%;
+    width: 50%;
     background-color: #000000; 
-    padding: 1px 0 ;
     box-sizing: border-box;
     color: aliceblue;
     border-radius: 40px;

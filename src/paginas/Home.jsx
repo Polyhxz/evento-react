@@ -15,9 +15,9 @@ function Home() {
       <Evento nome="Efapi" data="10/10/2025" local="Efapi" />
       <br></br>
       <Evento nome="Palestra" data="01/11/2025" local="Unoesc" />
-      </div>
       <br></br>
       <Evento nome="Semana da Indústria" data="22/11/2025" local="Laboratório 2"/>
+      </div>
     </main>
   );
 }
