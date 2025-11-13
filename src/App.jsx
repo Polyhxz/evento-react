@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Home from "./paginas/Home";
 import Sobre from "./paginas/Sobre";
 import MainContainer from "./container/MainContainer"; 
+import React from "react";
 import "./styles.css";
 
 
@@ -16,9 +17,10 @@ function App() {
 
 
         {/* Menu de navegação */}
-        <nav>
-          <Link to="/">Início</Link> | <Link to="/sobre">Sobre</Link>
+        <br></br><nav>
+          <h2> <Link to="/">Início</Link> | <Link to="/sobre">Sobre</Link> </h2> 
         </nav>
+        <br></br>
 
         <MainContainer>
         {/* Definição das rotas */}

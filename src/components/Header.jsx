@@ -1,5 +1,5 @@
 // Cabeçalho
-
+import "./header.css";
 import { Link } from "react-router"; //Importando
 function Header() {
   return (

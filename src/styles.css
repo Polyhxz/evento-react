@@ -29,17 +29,7 @@
   /* ===============================
      CABEÇALHO (HEADER)
      =============================== */
-  
-  header {
-    width: 60%;                        /* Ocupa toda a largura */
-    background-color: #0072bb;          /* Azul padrão SENAI */
-    color: rgb(255, 255, 255);                       /* Texto branco */
-    padding: 5px 0;                    /* Espaçamento interno */
-    font-size: 1.6em;                   /* Tamanho de texto maior */
-    font-weight: bold;                  /* Texto em negrito */
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); /* Sombra abaixo do cabeçalho */
-    border-radius: 40px;
-  }
+
 
   
   /* Estilo do menu principal de navegação */
@@ -73,18 +63,8 @@
     min-height: calc(100vh - 200px); /* deixa o main ocupar o espaço entre header e footer */
   }
   
-  /* Título principal das páginas */
-  h1 {
-    color: #005b96;
-    margin-bottom: 20px;
-  }
-  
-  /* Parágrafos genéricos */
-  p {
-    color: #ffffff;
-    line-height: 1.5; /* Espaçamento entre linhas */
-  }
-  
+ 
+ 
   /* ===============================
      BOTÕES
      =============================== */
@@ -112,7 +92,7 @@
      =============================== */
   
   .card-evento {
-    background-color: white;               /* Fundo branco */
+    background-color: rgb(255, 255, 255);               /* Fundo branco */
     border-radius: 10px;                   /* Cantos arredondados */
     padding: 20px;
   

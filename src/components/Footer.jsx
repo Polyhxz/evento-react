@@ -1,4 +1,4 @@
-import "./Footer.css";
+import "./footer.css";
 function Footer() {
     const ano = new Date().getFullYear(); //Retorna o ano atual
   
