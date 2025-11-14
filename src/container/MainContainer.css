@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;      /* Centraliza horizontalmente */
     align-items: center;          /* Centraliza verticalmente */
-    width: 50%;
+    width: 45%;
     background-color: #000000; 
     box-sizing: border-box;
     color: aliceblue;
